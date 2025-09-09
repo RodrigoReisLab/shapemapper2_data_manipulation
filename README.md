@@ -50,7 +50,7 @@ The \_profile.txt file is located in a nested subdirectory.
 
 * Python 3.8 or newer  
 
-## ** Dependencies**
+## **Dependencies**
 
 * [pandas](https://pandas.pydata.org/)
 * [matplotlib](https://matplotlib.org/)
