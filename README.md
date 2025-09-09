@@ -44,6 +44,7 @@ The \_profile.txt file is located in a nested subdirectory.
 |   |   |-- ...\_profile.txt  
 |-- ProbingData_manipulation.py  
 
+**CRITICAL**: The **name** of the directory containing _profile.txt file must have a valid gene ID (currently, TAIR ID only) with a prefix (typically, a short name for the treatment). Suffix to gene ID is ignored.
 
 ### **Prerequisites**
 
