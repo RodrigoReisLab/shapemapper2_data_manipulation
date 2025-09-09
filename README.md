@@ -1,4 +1,4 @@
-# **Manipulation of probing data from shapemapper2*
+# **Manipulation of probing data from shapemapper2**
 
 ## **Description**
 
