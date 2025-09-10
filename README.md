@@ -58,10 +58,12 @@ The \_profile.txt file is located in a nested subdirectory.
 
 ### **Usage**
 
-1. Place the ProbingData_manipulation.py script in your root project directory, alongside your data folders.  
+1. Place the ProbingData_manipulation.py or ProbingData_manipulation_ReactivityProfile_&_NormProfile.py script in your root project directory, alongside your data folders.  
 2. Go to the root directory in your terminal.  
 3. Run the script:  
    python ProbingData_manipulation.py
+   or
+   python ProbingData_manipulation_ReactivityProfile_&_NormProfile.py
 
 The script will automatically find the data, process it, and create a gene_data_output directory with all the results.
 
@@ -78,3 +80,5 @@ For each gene (e.g., AT3G23000), the script will generate a dedicated folder con
 * AT3G23000_nucleotide_rates_boxplot.png: A 4-panel figure with box plots for each nucleotide type.  
 * AT3G23000_sliding_window_plot.png: A line plot of the sliding window data.  
 * AT3G23000_norm_profile_correlation_heatmap.png: A heatmap visualizing the correlation matrix.
+
+The script **ProbingData_manipulation_ReactivityProfile_&_NormProfile.py** will produce the same output files as above for **Norm_profile** and **Reactivity_profile** from the "_profile.txt", while the **ProbingData_manipulation.py** only outputs for **Norm_profile**, as described above.
